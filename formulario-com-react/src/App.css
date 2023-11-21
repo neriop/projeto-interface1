@@ -1,0 +1,137 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  background-image: url('https://img.r7.com/images/2015/06/12/64bpen4di9_5ildmdu3wm_file.jpg?dimensions=640x600'); 
+  background-size: cover; 
+  background-repeat: no-repeat;
+  color: #ffff;
+background-attachment: fixed;
+font-weight: 400;
+}
+
+select,
+textarea{
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+#title {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+#description {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#survey-form {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 95%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+}
+
+option{
+    color: black;
+}
+
+.enviar {
+    background-color: #A9A9A9;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+
+.checkbox-container {
+  align-content: center;
+  margin-top: 10px; 
+}
+
+#survey-form{
+  padding: 20px;
+  border-radius: 10px;
+  width: 60%;
+  margin: auto;
+  text-align: center; 
+}
+
+.checkbox, .radio {
+  display: inline-block;
+  margin-left: 50px;
+  text-align: center; 
+}
+
+textarea {
+    height: 100px;
+}
+
+.inline {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#form h1, #about h1, #home h1, #route h1, #notFound h1{
+    text-align: center;
+}
+
+#about p, #home p, #notFound p{
+    text-align: center;
+}
+
+#route route{
+  text-align: center;
+}
+
+.centered-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #00FFFF;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#recommend, #comment, #genre{
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
